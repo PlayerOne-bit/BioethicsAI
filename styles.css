@@ -1,6 +1,5 @@
 
 
-
 header{
     font-size: 1em;
     padding: 1em;
@@ -8,13 +7,14 @@ header{
     background: linear-gradient(to right, skyblue, darkblue);
     text-align: center;
     border-radius: 10px;
-
+    width: auto;
 
     h1{
         color: aliceblue;
     }
 
     ul{
+
         list-style: none;
         display: flex;
         gap: 1em;
@@ -42,9 +42,10 @@ header{
 }
 
 section{
+    width: auto;
     text-align: justify;
     padding: 1em 1em;
-    margin: 1em 6em;
+    margin: 1em 4em;
     background-color: rgba(255, 255, 255, 0.75);
 }
 
