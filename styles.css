@@ -1,0 +1,219 @@
+#up{
+    padding: 5px;
+    right: 1em;
+    bottom: 1em;
+    position: fixed;
+    background: black;
+    color: wheat;
+    text-decoration: none;
+    transform: color 0.1s;
+    &:hover {
+        color: yellow;
+        transform: scale(1.1,1.1);
+    }
+    
+}
+
+
+header{
+    font-size: 1em;
+    padding: 1em;
+    margin: 1em 1em 35em 1em;
+    background: linear-gradient(to right, skyblue, darkblue);
+    text-align: center;
+    border-radius: 10px;
+
+
+    h1{
+        color: aliceblue;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 1em;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 1%;
+
+        a {
+            li {
+                color: aliceblue;
+                text-decoration: none;
+                font-size: 16px;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: yellow;
+                    transform: scale(1.1,1.1);
+                }
+            }
+        }
+
+    }
+}
+
+section{
+    text-align: justify;
+    padding: 1em 1em;
+    margin: 1em 6em;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#def #def1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    div{
+        flex: 1;
+        margin-right: 1%;
+    }
+}
+
+#advdis{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    #vantage{
+        padding: 1%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 50px;
+        div{
+            text-align: justify;
+            flex: 1;
+            h2{
+               font-size: 2em; 
+            }
+            li{
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+#ex {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#ex .examdiv {
+  background: #fff;
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#ex .examdiv .exam {
+  display: none;
+  animation: fade 0.4s ease-in-out;
+}
+
+#ex .examdiv .exam.go {
+  display: block;
+}
+
+#ex .examdiv .exam button.ans {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#ex .examdiv .exam button.ans:hover {
+  background-color: #0056b3;
+}
+
+#ex .examdiv .exam button.ans.win {
+  background-color: #28a745 !important;
+}
+
+#ex .examdiv .exam button.ans.lose {
+  background-color: #dc3545 !important;
+}
+
+#ex .examdiv .exam .next {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+#ex .examdiv .exam .next:hover {
+  background-color: #218838;
+}
+
+#ex .examdiv .exam .exp {
+  font-size: 0.95rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+#ex .examdiv #done {
+  display: none;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: green;
+  font-weight: bold;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+  
+
+
+
+#comiss{
+    font-size: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+body{
+    background-image: url('images/tralalero-tralala.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 0;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px 1em 1em 1em;
+    background: skyblue;
+    font-size: 1.5em;
+}
+
+html{
+    scroll-behavior: smooth;
+}
