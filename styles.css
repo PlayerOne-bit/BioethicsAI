@@ -1,18 +1,4 @@
-#up{
-    padding: 5px;
-    right: 1em;
-    bottom: 1em;
-    position: fixed;
-    background: black;
-    color: wheat;
-    text-decoration: none;
-    transform: color 0.1s;
-    &:hover {
-        color: yellow;
-        transform: scale(1.1,1.1);
-    }
-    
-}
+
 
 
 header{
